@@ -3,3 +3,5 @@ settings/config.py
 
 # Ignore the __pycache__ folders
 __pycache__/
+
+.DS_Store
