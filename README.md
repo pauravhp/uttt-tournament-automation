@@ -11,10 +11,12 @@ All scripts were written in Python 3. The main technologies used were [Challonge
 
 Necessary libraries to install -
 
-- [py-challonge] (https://github.com/ZEDGR/pychallonge)
+- py-challonge (https://github.com/ZEDGR/pychallonge)
 - google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 - pymongo
 - certifi
+
+Following the format in config_template.py, create a config.py file that has your configuration (See the settings folder). 
 
 ## Usage
 
@@ -28,11 +30,11 @@ How to run the tournament using this automation suite. **Make sure config.py is 
 ## Troubleshooting
 
 - The crash test in play_two_bots.py can be difficult to debug a participant's bot file. Make sure you give enough time for this step.
-- The Challonge API can some times not execute the final games of the bracket due to some connection issues, so make sure the connection is working by running a test on pulling some tournament details.
+- The Challonge API can sometimes not execute the final games of the bracket due to some connection issues, so make sure the connection is working by running a test on pulling some tournament details.
 
 ## Future Work/Features
 
-This repository will see a more generalized version created soon, fit to run with any "game_engine", so stay tuned to my github for that!
+This repository will see a more generalized version created soon, fit to run with any "game_engine", so stay tuned to my GitHub for that!
 
 Some future features that would be nice for this automation suite -
 
